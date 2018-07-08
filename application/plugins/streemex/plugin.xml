@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+	<name>
+		<lang name="default">Plugin Streemex</lang>
+		<lang name="english">Plugin Streemex</lang>
+	</name>
+	<author>
+		<lang name="default">netlanc</lang>
+	</author>
+	<homepage>http://netlanc.net/</homepage>
+	<version>1.0.0</version>
+	<requires>
+		<livestreet>0.4.2</livestreet>
+		<plugins>
+
+		</plugins>
+	</requires>
+	<description>
+		<lang name="default">Plugin Streemex</lang>
+		<lang name="english"><b>Plugin Streemex</b></lang>
+	</description>
+	<delegate>
+		<module></module>
+		<action></action>
+		<template></template>
+		<entity></entity>
+	</delegate>
+</plugin>

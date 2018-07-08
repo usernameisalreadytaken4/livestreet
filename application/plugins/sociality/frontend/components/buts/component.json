@@ -1,0 +1,13 @@
+{
+    "name": "buts",
+    "version": "1.0.0",
+    "dependencies": {
+    },
+    "templates": {
+        "buts": "buts.tpl"
+    },
+    "scripts": {
+    },
+    "styles": {
+    }
+}

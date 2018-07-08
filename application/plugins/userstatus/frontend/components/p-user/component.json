@@ -1,0 +1,13 @@
+{
+    "name": "p-user",
+    "version": "1.0.0",
+    "templates": {
+        "status": "status.tpl"
+    },
+    "scripts": {
+        "status": "js/status.js"
+    },
+    "styles": {
+        "status": "css/status.css"
+    }
+}

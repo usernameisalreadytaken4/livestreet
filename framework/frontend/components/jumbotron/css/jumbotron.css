@@ -1,0 +1,59 @@
+/**
+ * Баннер
+ *
+ * @module ls/jumbotron
+ *
+ * @license   GNU General Public License, version 2
+ * @copyright 2013 OOO "ЛС-СОФТ" {@link http://livestreetcms.com}
+ * @author    Denis Shakhov <denis.shakhov@gmail.com>
+ */
+
+.ls-jumbotron {
+    padding: 55px 50px;
+    background-color: #3F51B5;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+.ls-jumbotron-inner {
+    margin: 0 auto;
+}
+.ls-jumbotron a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Заголовок */
+.ls-jumbotron-title {
+    margin: -10px 0 15px;   /* xsevenbeta */
+    font-size: 50px;       /* xsevenbeta */
+    line-height: 1em;
+    font-weight: 800;     /*xsevenbeta*/
+}
+.ls-jumbotron-title a:hover {
+    color: #fff;
+    opacity: .9;
+}
+
+/* Подзаголовок */
+.ls-jumbotron-subtitle {
+    max-width: 600px;
+    margin: -12px 0 0px;   /* xsevenbeta */
+    margin-bottom: 0;
+    color: #fff;
+    color: rgba(255, 255, 255, .8);
+    font-size: 15px;
+    line-height: 1.5em;
+}
+
+/**
+ * Отзывчивые стили
+ */
+@media (max-width: 480px) {
+    .ls-jumbotron {
+        padding: 30px 20px;
+    }
+    .ls-jumbotron-title {
+        margin: 0 0 10px;
+        font-size: 35px;
+    }
+}
